@@ -9,8 +9,7 @@ const MostVoted = (props) =>{
     }
     return(
         <>
-         <p>Anecdote with most votes</p>
-         <br/>
+         <h2>Anecdote with most votes</h2>
          <p>{props.anecdote[index]}</p>
          <p>has {props.votes[index]} votes</p>
         </>
